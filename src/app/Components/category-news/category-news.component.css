@@ -1,0 +1,41 @@
+.card-body{
+    color: white;
+    overflow: hidden;
+}
+.card-title{
+    font-weight: 500;
+}
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    
+}
+.card{
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgb(34, 29, 29);
+    padding: 5px;
+    /* box-shadow: 4px 3px 8px 0px rgb(216, 87, 113); */
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 4px 3px 11px 4px rgb(141, 140, 141);
+    transform: translateY(-5px);
+}
+.card-text{
+    font-size: small;
+    overflow: hidden;
+    position: relative;
+}
+.author_name{
+    position: absolute;
+    margin-top: 5%;
+}

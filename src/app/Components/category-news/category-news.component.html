@@ -1,0 +1,13 @@
+<div class="news">
+    <div class="card" *ngFor="let news of http.newsdata" (click)="newsDetail(news.url)">
+        <img src="{{news.urlToImage}}" class="card-img-top news_image" alt="{{news.title}}">
+        <div class="card-body">
+            <h3 class="card-title">{{news.title}}</h3>
+            <p class="card-text">{{news.description}}</p>
+            <div class="author_name">
+                <p class="author">{{news.author}}</p>
+            </div>
+            
+        </div>
+    </div>
+</div>
